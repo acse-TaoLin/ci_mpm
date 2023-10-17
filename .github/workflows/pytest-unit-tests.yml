@@ -6,9 +6,11 @@ on:
   push:
     branches:
       - master
+      - mpm_23
   pull_request:
     branches:
       - master
+      - mpm_23
 
 jobs:
   pytest:
